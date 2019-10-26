@@ -18,7 +18,7 @@ for (let i = 3; i < process.argv.length; i++) {
 search = search.trim();
 
 function selectOperation (operation) {
-    switch (operation.toLowerCase()) {
+    switch (operation) {
         case 'concert-this':
         case 'concert':
             console.log('One moment while I find concerts for ' + search);
@@ -81,7 +81,7 @@ function selectOperation (operation) {
             });
             break;
         case 'do-what-it-says':
-            fs.readFile('./random.txt', 'utf8', (err, data) => {
+            fs.readFile('./doShit.txt', 'utf8', (err, data) => {
                 if (err){
                     console.log(err);
                 }
