@@ -9,3 +9,7 @@
 - Axios
 - Javascript
 - Node
+
+## Command line image
+![alt text] (https://raw.githubusercontent.com/KaseyPrince1/eeri_liri/master/images/liriOutput.png)
+
